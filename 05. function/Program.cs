@@ -121,10 +121,11 @@
         // 같은 이름의 함수를 매개변수를 달리하여 다른 함수로 재정의하는 기술
         // 같은 이름의 함수를 호출하여도 매개변수의 자료형에 따라 함수를 달리 호출할 수 있음
 
-        int Multi(int left, int right) { return left * right; }
-        float Multi(float left, float right) { return left * right; }
-        double Multi(double left, double right) { return left * right; }
+        public static int Multi(int left, int right) { return left * right; }
+        public static float Multi(float left, float right) { return left * right; }
+        public static double Multi(double left, double right) { return left * right; }
 
+        // 왜 public static 붙이니까 되느냐? 이걸 알수가 없네
 
         static void Main(string[] args)
         {
