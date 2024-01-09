@@ -11,6 +11,7 @@
 
         // <일반화 함수>
         // 일반화가 없는 경우 자료형마다 함수를 작성
+        // 일반화 사례를 외워놓도록 하자. 
         public static void IntArrayCopy(int[] source, int[] output)
         {
             for (int i = 0; i < source.Length; i++) { output[i] = source[i]; }
@@ -58,7 +59,7 @@
             char[] cDst = new char[cSrc.Length];
             ArrayCopy(cSrc, cDst);              // 일반화 자료형을 매개변수를 통해 추측 가능한 경우 생략 가능
         }
-
+        // 이걸 알아둬야해
         // <일반화 클래스>
         // 클래스에 필요한 자료형을 일반화하여 구현
         // 이후 클래스 인스턴스를 생성할 때 자료형을 지정하여 사용
