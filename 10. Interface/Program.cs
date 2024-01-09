@@ -17,6 +17,7 @@ namespace _10._Interface
         // <인터페이스 정의>
         // 일반적으로 인터페이스의 이름은 I로 시작함(국룰)
         // 인터페이스의 함수는 직접 구현하지 않고 정의만 진행
+        // 개인적으론 제일 재밌었던 파츠. 왜일까
         public interface IEnterable
         {
             void Enter();
