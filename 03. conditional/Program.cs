@@ -37,20 +37,20 @@
 
 //            // <if 조건문 기본>
 
-//            // 예시
-//            //int playerHp = 100;
-//            //int monsterAtk = 20;
+//             예시
+            int playerHp = 100;
+            int monsterAtk = 20;
 
-//            //if (playerHp > monsterAtk)   // 조건이 true인 경우 바로 아래의 블록이 실행됨
-//            //{
-//            //    Console.WriteLine("플레이어가 데미지를 받습니다.");
-//            //    playerHp -= monsterAtk;
-//            //}
-//            //else
-//            //{
-//            //    Console.WriteLine("플레이어가 쓰러집니다.");
-//            //    playerHp = 0;
-//            //}
+            if (playerHp > monsterAtk)   // 조건이 true인 경우 바로 아래의 블록이 실행됨
+            {
+                Console.WriteLine("플레이어가 데미지를 받습니다.");
+                playerHp -= monsterAtk;
+            }
+            else
+            {
+                Console.WriteLine("플레이어가 쓰러집니다.");
+                playerHp = 0;
+            }
 
 //            bool isJumpPressed = true;
 //            bool isGround = true;
