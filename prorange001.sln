@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33529.622
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prorange001", "prorange001\prorange001.csproj", "{80340BE4-A8CB-424C-93B1-3A3F6D096E23}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14. Delegate", "14. Delegate\14. Delegate.csproj", "{496F0881-9DC3-45C7-AA6C-E5FD95751649}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16. Additional", "16. Additional\16. Additional.csproj", "{012EBEAD-B067-40B7-8C24-7D9A01C238A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Class", "15. Class\15. Class.csproj", "{32874A71-DBA9-4D6D-9D18-FB0E5280AFFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{012EBEAD-B067-40B7-8C24-7D9A01C238A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{012EBEAD-B067-40B7-8C24-7D9A01C238A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{012EBEAD-B067-40B7-8C24-7D9A01C238A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32874A71-DBA9-4D6D-9D18-FB0E5280AFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32874A71-DBA9-4D6D-9D18-FB0E5280AFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32874A71-DBA9-4D6D-9D18-FB0E5280AFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32874A71-DBA9-4D6D-9D18-FB0E5280AFFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
