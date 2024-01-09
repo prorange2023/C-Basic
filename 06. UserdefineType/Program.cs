@@ -15,7 +15,7 @@ namespace _06._UserdefineType
         // enum 열거형이름 { 멤버이름, 멤버이름, ... }
 
         enum Direction { up, down, left, right }
-        Void main1()
+        void main1()
         {   
             //0 : 위 , 1 : 아래 2 : 왼 3 : 오른
 
@@ -48,7 +48,7 @@ namespace _06._UserdefineType
             Autumn = 20,    // 정수값을 직접 할당 가능
             Winter  // 21   // 정수값을 직접 할당한 경우에도 이전 멤버 +1 값을 가짐
         }
-        Void main1()
+        void main122()
         {
             Season season1 = Season.Autumn;
             Console.WriteLine($"{season1}의 정수값은 {(int)season1} 입니다."); 
@@ -247,7 +247,9 @@ namespace _06._UserdefineType
             Console.WriteLine(t.value2);    // 2
         }
 
+        // 스트럭트는 깊은복사라 값이 안바뀜
         // <튜플> 이란 것도 있음: 쓰지말랍신다 -> 구조체를 만들어라
+        
         // 이유 : 관리 어려움, 확장성 안좋음
     }
 }
