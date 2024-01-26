@@ -1,4 +1,4 @@
-﻿namespace _15._Class
+﻿namespace _15._Event
 {
 	internal class Program
 	{

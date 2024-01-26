@@ -45,7 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14. Delegate", "14. Delegat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16. Additional", "16. Additional\16. Additional.csproj", "{012EBEAD-B067-40B7-8C24-7D9A01C238A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Class", "15. Class\15. Class.csproj", "{32874A71-DBA9-4D6D-9D18-FB0E5280AFFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15. Event", "15. Class\15. Event.csproj", "{32874A71-DBA9-4D6D-9D18-FB0E5280AFFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
